@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>paginaWeb - joseCardona</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html">cardona</a>
+        </div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a class="active" href="">Inicio</a></li>
+                <li><a href="">Servicios</a></li>
+                <li><a href="">Proyectos</a></li>
+                <li><a href="">Sobre nosotros</a></li>
+                <li><a href="">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <article class="principal">
+                <div class="first">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio animi architecto quas id, illo tempore amet sint minima soluta provident fuga doloribus ipsum reprehenderit natus aut quam porro temporibus! Eveniet!</p>
+                </div>
+                <div class="imgen">
+                    <img src="./img/pexels-philip-ackermann-1666012.jpg" alt="imagen">
+                </div>
+            </article>
+            <article class="secondary">
+
+            </article>
+        </section>
+        <section>
+            <article class="principal">
+                <div class="imgen">
+                    <img src="./img/pexels-philip-ackermann-1666012.jpg" alt="imagen">
+                </div>
+                <div class="first">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio animi architecto quas id, illo tempore amet sint minima soluta provident fuga doloribus ipsum reprehenderit natus aut quam porro temporibus! Eveniet!</p>
+                </div>
+            </article>
+            <article class="secondary">
+
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>desarrollado por @joseCardona</p>
+    </footer>
+
+
+    <script>
+        const ham = document.querySelector(".hamburger");
+        ham.addEventListener('click', ()=>{
+            const navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle('active');
+        })
+    </script>
+    
+</body>
+</html>
